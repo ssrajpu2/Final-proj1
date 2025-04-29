@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Arc de Alps | Contact</title>
+    <meta name="author" content="Swarnaa Rajput">
+    <meta name="description" content="Contact Arc de Alps Resort for help with planning your dream alpine getaway. We are here to assist you with any questions you may have.">
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="contact-page">
+
+    <header>
+      <h1><a href="index.html">Arc de Alps</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Accommodations</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+   
+
+    <main>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <p>Required fields marked with a <span class="required">*</span></p>
+    
+        
+        <!-- HERO IMAGE -->
+        <div class="hero"></div> 
+
+          <!-- Form Grid (Row 2 & 3) -->
+          <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank" class="contact-grid">
+            
+            <!-- LEFT SIDE -->
+            <div>
+              <label for="my-name">Full Name<span class="required">*</span></label>
+              <input type="text" id="my-name" name="my-name" required>
+
+              <label for="my-email">Email<span class="required">*</span></label>
+              <input type="email" id="my-email" name="my_email" required>
+
+              <label for="my-phone">Phone<span class="required">*</span></label>
+              <input type="tel" id="my-phone" name="my_phone" required>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div>
+              <fieldset>
+                <legend>Preferred Method of Contact</legend>
+                <div class="radio-group">
+                  <label>
+                    <input type="radio" name="contact-pref" value="Phone" id="pref-phone" checked required>
+                    Phone
+                  </label>
+                  <label>
+                    <input type="radio" name="contact-pref" value="Email" id="pref-email">
+                    Email
+                  </label>
+                </div>
+              </fieldset>
+
+              <label for="my-comments">Comments: <span class="required">*</span></label>
+              <textarea name="my-comments" id="my-comments" required></textarea>
+
+              <input type="submit" value="Submit the Form">
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2023 - Arc de Alps</p>
+      <p>This site is for educational purposes only</p>
+    </footer>
+  </body>
+</html>
